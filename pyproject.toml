@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "py-simple-webscraping-sunat"
+version = "0.1.0"
+description = "Process that downloads a database from the sunat website and saves it in a mysql database."
+authors = ["jbolod <jbolo.des@gmail.com>"]
+license = "GNU Lesser General Public License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pathlib = "^1.0.1"
+sqlalchemy = "^2.0.29"
+mysql-connector-python = "^8.3.0"
+pandas = "^2.2.2"
+urllib3 = "1.26.12"
+requests = "2.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
